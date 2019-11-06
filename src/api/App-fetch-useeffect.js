@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 const useFetch = url => {
   const [data, setData] = useState(null); // Null is initial value
   const [loading, setLoading] = useState(true);
-
+  //
   // Similar to componentDidMount and componentDidUpdate:
   //
   //--Default Behaviour
